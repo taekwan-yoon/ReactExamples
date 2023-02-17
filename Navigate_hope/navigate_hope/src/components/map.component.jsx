@@ -4,7 +4,7 @@ import Geocoder from "react-native-geocoding";
 
 const MapComponent = () => {
   // initialization for reverse geocoding
-  Geocoder.init("AIzaSyB3qMKp94nsh-ENuTt5TZzNHxvkdl56ATY", { language: "en" }); // set the language
+  Geocoder.init("REMOVED FOR GITHUB", { language: "en" }); // set the language
 
   // style of map
   const containerStyle = {
@@ -49,7 +49,7 @@ const MapComponent = () => {
 
   return (
     // taekwan's google api key
-    <LoadScript googleMapsApiKey="AIzaSyB3qMKp94nsh-ENuTt5TZzNHxvkdl56ATY">
+    <LoadScript googleMapsApiKey="REMOVED FOR GITHUB">
       {/* // google map component */}
       <GoogleMap
         mapContainerStyle={containerStyle}
