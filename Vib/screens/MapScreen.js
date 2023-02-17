@@ -65,7 +65,7 @@ const MapScreen = () => {
   `49.284605, -123.124824`;
   const getDirections = async (startLoc, destinationLoc) => {
     try {
-      const KEY = "AIzaSyA1NA3CVqNv99ndEVYiLLhG7eBDzGaNKKs";
+      const KEY = "REMOVED FOR GITHUB";
       let resp = await fetch(
         `https://maps.googleapis.com/maps/api/directions/json?origin=${startLoc}&destination=${destinationLoc}&key=${KEY}`
       );
