@@ -39,7 +39,7 @@ const Browse = () => {
   useEffect(() => {
     GetData();
     dogs.map((item) => {
-      Geocoder.init("AIzaSyA1NA3CVqNv99ndEVYiLLhG7eBDzGaNKKs"); // initialize with Taekwan's Google Map API key
+      Geocoder.init("REMOVED FOR GITHUB"); // initialize with Taekwan's Google Map API key
       Geocoder.from(item.address) // put address as string here
         .then((json) => {
           var location = json.results[0].geometry.location;
